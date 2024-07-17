@@ -101,3 +101,110 @@ nav .right {
     margin: 15px 18px;
     padding: 10px 100px;
 }
+
+
+@media screen  and (min-width: 1280px ) and (max-width: 1440px) {
+    #spotlight .top {
+        gap: 600px;        
+    }
+}
+@media screen  and (min-width: 1080px ) and (max-width: 1279px) {
+    #spotlight .top {
+        gap: 500px;        
+    }
+}
+@media screen  and (min-width: 980px ) and (max-width: 1079px) {
+    #spotlight .top {
+        gap: 400px;        
+    }
+    #spotlight .bottom  {
+        gap: 20px;
+    }
+}
+@media screen  and (min-width: 768px ) and (max-width: 979px) {
+    nav a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #spotlight .top h1 {
+        font-size: 18px;
+    }
+    #spotlight .top {
+        gap: 300px;        
+    }
+    #spotlight .bottom  {
+        gap: 20px;
+    }
+}
+@media screen  and (min-width: 640px ) and (max-width: 767px) {
+    nav  {
+        width: 100%;
+    }
+    nav a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    nav .right {
+        gap: 30px;
+    }
+    #spotlight .top h1 {
+        font-size: 18px;
+    }
+    #spotlight .top {
+        gap: 150px;        
+    }
+    #spotlight .bottom  {
+        gap: 10px;
+    }
+}
+@media screen  and (min-width: 540px ) and (max-width: 649px)  {
+    nav a {
+        font-size: 12px;
+    }
+    nav .right {
+        gap: 10px;
+    }
+    #spotlight .top {
+        gap: 10px;        
+    }
+    #spotlight .top h1  {
+        font-size: 16px;
+    }
+    #spotlight .top select  {
+        padding-right: 0px;
+    }
+}
+@media screen  and (min-width: 480px ) and (max-width: 539px) {
+    nav a {
+        font-size: 11px;
+    }
+    nav .right {
+        gap: 10px;
+    }
+    #spotlight .top {
+        gap: 0px;        
+    }
+    #spotlight .top h1  {
+        font-size: 16px;
+    }
+    #spotlight .top select  {
+        padding-right: 0px;
+    }
+}
+@media screen  and (min-width: 360px ) and (max-width: 479px) {
+    nav a {
+        font-size: 11px;
+    }
+    nav .right {
+        gap: 10px;
+    }
+    #spotlight .top {
+        gap: 0px;        
+    }
+    #spotlight .top h1  {
+        font-size: 16px;
+    }
+    #spotlight .top select  {
+        padding-right: 0px;
+    }
+}
